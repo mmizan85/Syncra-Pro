@@ -1,0 +1,42 @@
+<!-- Exrension main HTML cord  -->
+<!DOCTYPE html>
+<html lang="bn">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>YT-DLP Downloader</title>
+  <link rel="stylesheet" href="popup.css">
+
+  
+</head>
+
+<body>
+
+  <h2>Syncra Downloader</h2>
+
+  <input id="url" type="text" placeholder="YouTube Video/Playlist/Shorts URL" >
+
+  <div ">
+    <label for="mode" style="padding: 5px;">Format:</label>
+    <select id="mode" ">
+      <option value="video">Video</option>
+      <option value="audio">Audio</option>
+      <option value="butPhone">Button Phone</option>
+    </select>
+  </div>
+
+  <div >
+    <label for="quality" style="padding: 5px;">Quality:</label>
+    <select id="quality">
+    </select>
+  </div>
+
+  <button id="download">Download</button>
+
+  <p id="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

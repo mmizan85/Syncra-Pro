@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Syncra Downloader ",
+  "version": "1.2.25",
+  "description": "Download YouTube videos, playlists, and audio in multiple qualities (4K, 1080p, MP3, Feature phone video) with ease.",
+  "author": "Mohammod Mizanur Rahman",
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+        }
+      }
+    },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "permissions": ["tabs"],
+  "host_permissions": ["http://localhost:9000/*", "https://www.youtube.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+    }
+  }
+}
