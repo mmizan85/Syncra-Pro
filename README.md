@@ -42,7 +42,7 @@ If you want the version that includes all the necessary tools (`yt-dlp.exe` and 
 
 ### 1. Go to the Releases Page
 All stable versions of the project are uploaded as ZIP files in the Releases section.
-👉 **[View All Releases and Download]([https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases](https://github.com/mmizan85/Syncra-Pro/releases/tag/syncra-pro-v1226.%2Csyncra))**
+👉 **[View All Releases and Download](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases](https://github.com/mmizan85/Syncra-Pro/releases/tag/syncra-pro-v1226.%2Csyncra))**
 
 ### 2. Choose Your Version
 On the Releases page:
