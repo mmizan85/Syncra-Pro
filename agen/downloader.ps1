@@ -157,7 +157,6 @@ while ($true) {
                         else {
                             yt-dlp `
                               -f "bestvideo[ext=mp4][height<=$quality]+bestaudio[ext=m4a]/best[ext=mp4]/best" `
-                              --embed-thumbnail `
                               --yes-playlist `
                               -o "$downloadDir\%(title)s.%(ext)s" `
                               $url
@@ -193,4 +192,5 @@ while ($true) {
         }
     }
 }
+
 
