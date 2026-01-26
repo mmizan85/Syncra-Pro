@@ -36,6 +36,19 @@ Syncra Pro works using a **Hybrid Architecture**:
 1.  **Frontend (Chrome Extension):** Detects the video URL and user preferences.
 2.  **Backend (Local Agent):** A PowerShell script running locally that processes the download using `ffmpeg` and `yt-dlp`.
 
+## 📥 How to Download the Complete Project
+
+If you want the version that includes all the necessary tools (`yt-dlp.exe` and `ffmpeg.exe`), please do not use the green "Code" button. Instead, follow these steps:
+
+### 1. Go to the Releases Page
+All stable versions of the project are uploaded as ZIP files in the Releases section.
+👉 **[View All Releases and Download](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases)**
+
+### 2. Choose Your Version
+On the Releases page:
+* Look for the latest version tag (e.g., `v1.0.0`).
+* Under the **"Assets"** section, click on the `.zip` file (e.g., `Project_Full_Package.zip`) to start the download.
+
 ---
 
 ## 📥 Installation Guide
