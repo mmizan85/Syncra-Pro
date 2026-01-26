@@ -165,8 +165,10 @@ while ($true) {
                         }
 
                     }
-                [System.Media.SystemSoumds]::Asterisk.Play()
-                Write-Host "Download Completed for `n%(title)" -ForegroundColor DarkGreen
+                 [System.Media.SystemSounds]::Asterisk.Play()
+                 $wshell = New-Object -ComObject WScript.Shell
+                 $wshell.Popup("Download Complete- %(title)", 1, "Download Completed", 64)
+                    
                     
                 }
                 catch {
@@ -191,3 +193,4 @@ while ($true) {
         }
     }
 }
+
